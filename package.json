@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "engines": {
-  "node": "20.x"
-},
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest"
+    "node": "20.x"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.3",
+    "vite": "5.4.11"
+  }
 }
