@@ -1,3 +1,4 @@
+import React from 'react';
 import { BookOpen, Feather, Mail, Sparkles } from 'lucide-react';
 
 const featureBlocks = [
