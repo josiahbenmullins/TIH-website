@@ -16,7 +16,7 @@ const featureBlocks = [
   {
     type: 'image',
     eyebrow: 'Journey',
-    title: 'What happens when you "Dont Belong" in heaven?',
+    title: 'What happens when you "Don’t Belong" in heaven?',
     description: 'Walk with Jen as she learns to find her place and avoid being found out.',
     image: '/images/Manthana.png',
     alt: 'A watercolor gate into Heaven',
@@ -28,7 +28,7 @@ const featureBlocks = [
   type: 'quote',
   eyebrow: 'Wonder',
   quote: 'Friendship, Exploration, Discovery and Deceit all in a land far stranger than Jen ever imagined',
-  note: 'Jen learns she isnt the only one in heaven, and keeping her secret is getting harder and harder...',
+  note: 'Jen learns she isn’t the only one in heaven, and keeping her secret is getting harder and harder...',
   image: '/images/jen-sam.png',
   alt: 'Jen and Sam exploring the abbey',
   visualHeight: '460px',
@@ -96,7 +96,7 @@ function FeatureBlock({ item, index }) {
         ) : (
           <>
             <p className="eyebrow"><Feather size={15} /> {item.eyebrow}</p>
-            <blockquote>“{item.quote}”</blockquote>
+            <blockquote>{item.quote}</blockquote>
             <p>{item.note}</p>
           </>
         )}

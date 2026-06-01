@@ -618,7 +618,28 @@ flex-direction: column;
 }
 
 /* Author section */
+@media (max-width: 768px) {
+  .author-section {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .author-image {
+    order: 1;
+    width: 100%;
+  }
+
+  .author-copy {
+    order: 2;
+    width: 100%;
+  }
+
+  .author-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
 .author-card {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
