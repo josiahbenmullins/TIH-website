@@ -208,7 +208,7 @@ function App() {
           </div>
           <div className="author-photo">
             <img
-              src="/images/Josiah.png"
+              src="/images/author.jpeg"
               alt="Author portrait"
             />
           </div>
