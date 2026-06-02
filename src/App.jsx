@@ -28,7 +28,7 @@ const featureBlocks = [
   type: 'quote',
   eyebrow: 'Wonder',
   quote: 'Friendship, Exploration, Discovery and Deceit all in a land far stranger than Jen ever imagined',
-  note: 'Jen learns she isn’t the only one in heaven, and keeping her secret is getting harder and harder...',
+  note: 'Will Jen realize that her best friends may be her biggest liability, as her secret gets harder and harder to keep...',
   image: '/images/jen-sam.png',
   alt: 'Jen and Sam exploring the abbey',
   visualHeight: '460px',
@@ -38,8 +38,8 @@ const featureBlocks = [
   {
     type: 'image',
     eyebrow: 'Truth',
-    title: 'Will Jen succeed in weaving her story, or will the truth find her out?',
-    description: 'When Jen decides to try to avoid judgment, did she just forfeit mercy as well? Will she have the courage to tell the truth, or be able to continue her ruse?',
+    title: 'A secret can be kept in the dark, but heaven is made of light...',
+    description: 'When Jen decides to try to avoid judgment, did she just forfeit mercy as well? Will she have the courage to tell the truth even if it means she is banished for good, or be able to continue her ruse?',
     image: '/images/justice.png',
     alt: 'Jen standing at the threshold',
     visualHeight: '460px',
@@ -49,7 +49,7 @@ const featureBlocks = [
   {
     type: 'quote',
     eyebrow: 'Running',
-    quote: 'No one ever talks about how to escape heaven; Jen discovers it might be harder than expected...',
+    quote: 'No one ever talks about how to escape heaven; Jen discovers it might be harder than she expected...',
     note: 'Heaven is stranger than Jen expected. It becomes even more so after she discovers she is trapped with no way out...',
     image: '/images/running.png',
     alt: 'The patched wall into Heaven',
