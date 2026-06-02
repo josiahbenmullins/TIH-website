@@ -16,7 +16,7 @@ const featureBlocks = [
   {
     type: 'image',
     eyebrow: 'Journey',
-    title: 'What happens when you "Don’t Belong" in heaven?',
+    title: 'What happens when you "don’t belong" in heaven?',
     description: 'Walk with Jen as she learns to find her place and avoid being found out.',
     image: '/images/Manthana.png',
     alt: 'A watercolor gate into Heaven',
