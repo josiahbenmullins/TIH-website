@@ -709,7 +709,47 @@ right: 16px;
 text-align: center;
 }
 
-.feature-image {
-padding: 10px;
 }
+/* Final mobile fixes */
+
+@media (max-width: 860px) {
+  .author-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .author-copy {
+    order: 1;
+    width: 100%;
+  }
+
+  .author-photo {
+    order: 2;
+    width: 100%;
+    min-height: 320px;
+  }
+
+  .author-photo img {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .feature-image {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .feature-visual {
+    overflow: hidden;
+  }
 }
